@@ -15,9 +15,9 @@
 
     <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10 ">
 
-        <h1 class="text-2xl"> Greenden</h1>
+        <h1 class="text-2xl"><a href="./index.html"> Greenden </a> </h1>
 
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
             class="w-7 h-7 md:hidden">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
@@ -32,12 +32,23 @@
 
     </nav>
 
+    <!----------Side NavBar-->
+
+    <section id ="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000" style="width: 50%; height: 100vh; right: -50%  ;">
+        <div class="text-right p-5">
+             <p id="closenav" class="inline cursor-pointer"> X </p></div>
+        <ul class="flex flex-col gap-10 items-center text-gray-600">
+            <li> <a class="hover:underline  hover:text-black" href="index.html"> Home </a> </li>
+            <li> <a class="hover:underline  hover:text-black" href="product.html"> Products </a> </li>
+            <li> <a class="hover:underline hover:text-black" href="contact.html"> Contact </a> </li>
+        </ul>
+    </section>
     <!----------Header Section------->
 
     <section class="bg-green-100 p-4 md:p-10 flex justify-center ">
         <div>
         <p class="mb-4" > We offer you a wide range of Artificial and Natural Flowers</p>
-        <h2 class="font-bold text-3xl md:text-5xl mt-5"> Plants for your Interior</h2>
+        <h2 class="font-bold text-3xl md:text-5xl mt-5"> Grow Your Green Thumb 🌱 </h2>
         <div class="mt-4">
             <button class="bg-black rounded p-2 text-white"> Shop Now</button>
             <button class="border border-black rounded p-2"> Watch Video</button>
@@ -65,7 +76,7 @@
                   </svg>
                   
                 <h2 class="text-xl font-medium"> Large Assortment </h2>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sunt aspernatur commodi tempore neque, iusto recusandae optio, eius, a reiciendis quas quis repudiandae quos doloribus eum ut quaerat placeat ratione.</p>     
+                <p> At GreenDen Plants, we take pride in our large assortment of high-quality plants, carefully curated to meet the diverse needs and preferences of our customers. Whether you are an avid gardener, a plant novice, or someone seeking to brighten up their living or working space, we have something for everyone. </p>     
             </div>
             <div class="border border-black p-2 m-6"> 
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 inline">
@@ -73,7 +84,7 @@
                   </svg>
                   
                 <h2 class="text-xl font-medium"> Free and Fast Shipping </h2>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sunt aspernatur commodi tempore neque, iusto recusandae optio, eius, a reiciendis quas quis repudiandae quos doloribus eum ut quaerat placeat ratione.</p>
+                <p> At GreenDen Plants, we want to make it easy for you to bring home the beauty of nature. Enjoy free shipping on all orders over $50! Conveniently shop our diverse collection of plants and have them delivered right to your doorstep. Bring the beauty home without the extra cost!</p>
                 
             </div>
             <div class="border border-black p-2 m-6"> 
@@ -82,7 +93,7 @@
                   </svg>
                   
                 <h2 class="text-xl font-medium"> 24/7 Support </h2>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sunt aspernatur commodi tempore neque, iusto recusandae optio, eius, a reiciendis quas quis repudiandae quos doloribus eum ut quaerat placeat ratione.</p>
+                <p> At GreenDen Plants, we understand that your love for plants doesn’t adhere to a schedule. That’s why we offer 24/7 service for inquiries, online orders, and plant care advice. Whether you're shopping in the middle of the night or need urgent plant advice on the weekend, our team is here to assist you every hour of every day.</p>
                 
             </div>
         </div>
@@ -133,15 +144,15 @@
         <h1 class="text-3xl font-bold mt-5 text-center"> Customer Reviews</h1>
         <div class="flex flex-col gap-5 justify-center text-white m-5">
             <div class="bg-green-900 p-5 "> 
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, aperiam deleniti hic nostrum consequatur alias, nesciunt perferendis distinctio quam, repellat mollitia voluptatem sapiente expedita quis porro? Cupiditate perspiciatis saepe necessitatibus!</p>
+                <p> I absolutely love my plants from GreenDen! The quality is outstanding, and the staff was so helpful in choosing the right plants for my home. I never thought I could keep indoor plants alive, but their care tips made all the difference! Highly recommended!</p>
                 <p class="font-bold text-yellow-300"> Genny Mathew</p>
             </div>
             <div class="bg-green-900 p-5 "> 
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, aperiam deleniti hic nostrum consequatur alias, nesciunt perferendis distinctio quam, repellat mollitia voluptatem sapiente expedita quis porro? Cupiditate perspiciatis saepe necessitatibus!</p>
+                <p> GreenDen Plants completely transformed my office space. Not only do I have beautiful greenery, but I've also noticed a significant improvement in the air quality and my overall mood. The customer service team was incredibly knowledgeable and guided me perfectly. Thank you, GreenDen! </p>
                 <p class="font-bold text-yellow-300"> Jim</p>
             </div>
             <div class="bg-green-900 p-5 "> 
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, aperiam deleniti hic nostrum consequatur alias, nesciunt perferendis distinctio quam, repellat mollitia voluptatem sapiente expedita quis porro? Cupiditate perspiciatis saepe necessitatibus!</p>
+                <p> I attended one of their plant care workshops, and it was a fantastic experience! The team is passionate and incredibly knowledgeable. I walked away with so much useful information and even a couple of new plants.</p>
                 <p class="font-bold text-yellow-300"> Parker</p>
             </div>
         </div>
@@ -160,10 +171,12 @@
 
     <section class=" bg-green-100 p-10 flex flex-col gap-5">
     <h1 class="text-4xl font-bold"> Greenden </h1>
-    <p> The Standard chunk of Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-    <p> @ 2025 Greenday.com </p>
+    <p> GreenDen Plants and is protected by copyright laws.</p>
+    <p> @ 2025 GreenDen Plants. All Rights Reserved.</p>
 
     </section>
+
+    <script src="./index.js"> </script>
 </body>
 
 </html>
